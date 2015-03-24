@@ -1,0 +1,24 @@
+(
+ :root-dir "/home/kim/Scala/NLP100"
+ :cache-dir "/home/kim/Scala/NLP100/.ensime_cache"
+ :name "root"
+ :java-home "/usr/lib/jvm/java-8-oracle"
+ :java-flags ("-Xms512M" "-Xmx1536M" "-Xss1M" "-XX:+CMSClassUnloadingEnabled")
+ :reference-source-roots ("/usr/lib/jvm/java-8-oracle/src.zip")
+ :scala-version "2.11.6"
+ :compiler-args nil
+ 
+ :subprojects ((
+   :name "root"
+   :module-name "root"
+   :source-roots ("/home/kim/Scala/NLP100/src/test/scala" "/home/kim/Scala/NLP100/src/test/java" "/home/kim/Scala/NLP100/src/main/scala" "/home/kim/Scala/NLP100/src/main/java" "/home/kim/Scala/NLP100/src/test/scala-2.11" "/home/kim/Scala/NLP100/src/main/scala-2.11")
+   :target "/home/kim/Scala/NLP100/target/scala-2.11/classes"
+   :test-targets ("/home/kim/Scala/NLP100/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/home/kim/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/home/kim/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.6-javadoc.jar" "/home/kim/Scala/NLP100/target/scala-2.11/nlp100_2.11-0.1-SNAPSHOT-javadoc.jar")
+   :reference-source-roots ("/home/kim/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.6-sources.jar")))
+ 
+)
